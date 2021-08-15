@@ -213,7 +213,7 @@ function show_Min_Cart() {
             <tbody>
                 <tr class='table_Data_Row'>
                     <td class='table_Data'>Petal T-shirts(Black)</td>
-                    <td class='table_Data'><img src='/shopImg/Item2/item2_1.jpg' alt=''></td>
+                    <td class='table_Data'><img src='./shopImg/Item2/item2_1.jpg' alt=''></td>
                     <td class='table_Data'>M</td>
                     <td class='table_Data'>$790</td>
                     <td class='table_Data'>4</td>
@@ -222,7 +222,7 @@ function show_Min_Cart() {
                 </tr>
                 <tr class='table_Data_Row'>
                     <td class='table_Data'>Mask</td>
-                    <td class='table_Data'><img src='/shopImg/Item7/Item7_1.jpg' alt=''></td>
+                    <td class='table_Data'><img src='./shopImg/Item7/Item7_1.jpg' alt=''></td>
                     <td class='table_Data'>nan</td>
                     <td class='table_Data'>$200</td>
                     <td class='table_Data'>1</td>
@@ -231,7 +231,7 @@ function show_Min_Cart() {
                 </tr>
                 <tr class='table_Data_Row'>
                     <td class='table_Data'>Ghost Hoddie(Black)</td>
-                    <td class='table_Data'><img src='/shopImg/Item4/Item4_1.jpg' alt=''></td>
+                    <td class='table_Data'><img src='./shopImg/Item4/Item4_1.jpg' alt=''></td>
                     <td class='table_Data'>M</td>
                     <td class='table_Data'>$1790</td>
                     <td class='table_Data'>2</td>
