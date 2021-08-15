@@ -1,0 +1,94 @@
+@import 'default.css';
+@DefaultH1: 5rem;
+@DefaultH2: 4rem;
+@DefaultH3: 3rem;
+@DefaultH4: 2rem;
+@DefaultH5: 1.8rem;
+
+.order_Section {
+    position: relative;
+    margin: 4rem;
+    height: 50vh;
+    animation: show .3s linear;
+
+    .order_Select_Title {
+        margin: 0 auto;
+        width: 50%;
+        margin: 2rem 0rem;
+        border-bottom: 2px solid #000;
+    }
+
+
+
+}
+
+.order_SelectWrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10rem 2rem;
+    font-size: @DefaultH3;
+
+    .icon {
+        width: 7rem;
+        height: 7rem;
+
+
+
+    }
+
+    .order_Select_Order {
+        margin-left: 10rem;
+    }
+}
+
+.order_Select_Cart a,
+.order_Select_Order a {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .text {
+        position: relative;
+        transition: all .5s;
+
+        &::before {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            -webkit-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            -webkit-transition: width 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+            transition: width 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+            border-bottom: 1px solid #000;
+            width: 0;
+            height: 1.5px;
+            content: "";
+        }
+
+
+    }
+
+    .icon {
+        transition: .5s all;
+
+
+    }
+
+    &:hover {
+
+
+        .text {
+            &::before {
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+            }
+
+        }
+    }
+
+}
