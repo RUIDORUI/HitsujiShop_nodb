@@ -71,7 +71,7 @@ h5 {
   position: relative;
   width: 100%;
   height: 40vh;
-  background: radial-gradient(circle, rgba(204, 204, 204, 0.356), rgba(255, 255, 255, 0)), no-repeat url(/shopImg/banner8.jpg) center, #313131;
+  background: radial-gradient(circle, rgba(204, 204, 204, 0.356), rgba(255, 255, 255, 0)), no-repeat url(shopImg/banner8.jpg) center, #313131;
   background-size: 80%;
   background-attachment: scroll;
   background-position: right 0 top 40%;
@@ -110,7 +110,7 @@ h5 {
   display: block;
   width: 100%;
   padding-top: 100%;
-  background: center url(/shopImg/disco/al_01.jpg) no-repeat;
+  background: center url(shopImg/disco/al_01.jpg) no-repeat;
   background-size: cover;
   animation: zoom 0.5s ease;
 }
