@@ -17,7 +17,7 @@
     margin: 0 auto;
     width: 80%;
     padding-top: 96%;
-    background: center url(../../shopImg/Item1/Item1_1.jpg) no-repeat;
+    background: center url(../shopImg/Item1/Item1_1.jpg) no-repeat;
     background-size: cover;
     transition: all 0.1s;
 }
@@ -38,7 +38,7 @@
     margin: 0 auto;
     width: 100%;
     padding-top: 120%;
-    background: center url(../../shopImg/Item1/Item1_3.jpg) no-repeat;
+    background: center url(../shopImg/Item1/Item1_3.jpg) no-repeat;
     background-size: cover;
     transition: filter 0.5s;
 }
