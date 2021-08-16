@@ -83,7 +83,7 @@ function signIn() {
         </div>`);
     $('#signIn_Success').fadeIn(3000, function() {
         $('#signInForm_Wrapper').fadeOut(1000, function() {
-            window.location.href = 'http://ajax.edu.tw:6080/index.html';
+            window.location.href = 'https://ruidorui.github.io/shop_nodb/index.html';
         });
         console.log('123');
     });
@@ -121,7 +121,7 @@ function showSignIn() {
                     <a href="" class="signIn_Button" id="signIn_Forget">Forget Password?</a>
                 </div>
                 <div class="signIn_Create">
-                    <h4>Don't Have a Account? <a href="http://ajax.edu.tw:6080/account.html" id="signIn_CreateLink">Create One.</a></h4>
+                    <h4>Don't Have a Account? <a href="https://ruidorui.github.io/shop_nodb/account.html" id="signIn_CreateLink">Create One.</a></h4>
                 </div>
 
             </form>
@@ -143,7 +143,7 @@ function showSignIn() {
 }
 
 function logOut() {
-    window.location.href = 'http://ajax.edu.tw:6080/index.html';
+    window.location.href = 'https://ruidorui.github.io/shop_nodb/index.html';
 }
 
 function selected_Color(item) {
@@ -299,7 +299,7 @@ function show_Min_Cart() {
 }
 
 function check_Cart_Signin() {
-    location.href = 'http://ajax.edu.tw:6080/order_Check.html';
+    location.href = 'https://ruidorui.github.io/shop_nodb/order_Check.html';
 }
 
 function cart_Total(a) {
